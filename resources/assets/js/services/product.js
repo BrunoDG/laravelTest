@@ -1,10 +1,10 @@
 (function() {
   angular.module('app')
-    .factory('product', product);
+    .factory('product', productService);
 
-    product.$inject = ['$http'];
+    productService.$inject = ['$http'];
 
-    function product($http) {
+    function productService($http) {
       var mock = [];
 
       var product = {
@@ -17,18 +17,18 @@
 
       return product;
 
-      function createProduct(data) {
+      function createProduct(product) {
         var data = {
-          sku: data.sku,
-          name: data.name,
-          stock: data.stock
+          sku: product.sku,
+          name: product.name,
+          stock: product.stock
         };
 
         return $http.post('/api/product', data);
       }
 
       function readProduct(id) {
-        return $http.get('/api/product/' + id );
+        return $http.get('/api/product/' + id);
       }
 
       function updateProduct(id, value) {

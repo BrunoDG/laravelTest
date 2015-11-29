@@ -29,20 +29,21 @@
     }
 
     function saveProduct($valid) {
-      if(!$valid) {
-        return ;
+      if (!$valid) {
+        return;
       }
 
       if (vm.product.id) {
-        product.update(vm.product.id, vm.product).then(updateList).catch(function() {
-          alert("SKU duplicado, favor alterar.");
-        });
+        product.update(vm.product.id, vm.product)
+          .then(updateList).catch(function() {
+            alert('SKU duplicado, favor alterar.');
+          });
       }
 
       if (!vm.product.id) {
         product.create(vm.product).then(updateList).catch(function() {
-          alert("SKU duplicado, favor alterar.");
-        });;
+          alert('SKU duplicado, favor alterar.');
+        });
       }
 
     }

@@ -1,8 +1,8 @@
-(function () {
+(function() {
   angular.module('app')
     .filter('percentage', percentage);
 
-    percentage.$inject = ['$filter']
+    percentage.$inject = ['$filter'];
 
     function percentage($filter) {
       return filter;

@@ -18,13 +18,13 @@ Route::get('/', function () {
 });
 
 Route::get('/template/{template}', function ($template) {
-  return view($template);
+    return view($template);
 });
 
-Route::group(['prefix' => 'api'], function(){
-  Route::get('/product', 'ProductsController@index');
-  Route::get('/product/{id}', 'ProductsController@show');
-  Route::post('/product', 'ProductsController@store');
-  Route::put('/product/{id}', 'ProductsController@update');
-  Route::delete('/product/delete/{id}', 'ProductsController@destroy');
+Route::group(['prefix' => 'api'], function () {
+    Route::get('/product', 'ProductsController@index');
+    Route::get('/product/{id}', 'ProductsController@show');
+    Route::post('/product', 'ProductsController@store');
+    Route::put('/product/{id}', 'ProductsController@update');
+    Route::delete('/product/delete/{id}', 'ProductsController@destroy');
 });

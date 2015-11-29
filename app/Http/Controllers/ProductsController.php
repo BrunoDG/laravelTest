@@ -7,6 +7,9 @@ use Illuminate\Http\Request;
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
 
+/**
+ * Controlador responsável pela gestão da manutenção dos produtos da tabela
+ */
 class ProductsController extends Controller
 {
     /**
@@ -16,7 +19,6 @@ class ProductsController extends Controller
      */
     public function index()
     {
-        //
         return \App\Product::all();
     }
 
@@ -28,8 +30,7 @@ class ProductsController extends Controller
      */
     public function store(Request $request)
     {
-        //
-        $this->validate ($request, [
+        $this->validate($request, [
           'sku' => 'required',
           'name' => 'required',
           'stock' => 'required'
@@ -38,7 +39,6 @@ class ProductsController extends Controller
         $produto = \App\Product::create($request->all());
 
         return $produto;
-
     }
 
     /**
@@ -63,6 +63,7 @@ class ProductsController extends Controller
     {
         $product = \App\Product::find($id);
         $product->fill($request->all());
+
         return ($product->save() ? 'true' : 'false');
     }
 
