@@ -1,0 +1,170 @@
+2015/11/28 22:44:30 [error] 5970#0: *120 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/home/brunodg/formulario/storage/logs/laravel.log" could not be opened: failed to open stream: Permission denied' in /home/brunodg/formulario/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:87
+Stack trace:
+#0 /home/brunodg/formulario/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/brunodg/formulario/vendor/monolog/monolog/src/Monolog/Logger.php(289): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /home/brunodg/formulario/vendor/monolog/monolog/src/Monolog/Logger.php(565): Monolog\Logger->addRecord(400, Object(UnexpectedValueException), Array)
+#3 /home/brunodg/formulario/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(50): Monolog\Logger->error(Object(UnexpectedValueException))
+#4 /home/brunodg/formulario/app/Exceptions/Handler.php(33): Illuminate\Foundation\Except...
+PHP message: PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/home/brunodg/formulario/storage/logs/laravel.log" could not be opened: failed to open stream: Permission denied' in /home/brunodg/formulario/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:87
+Stack trace:
+#0 /home/brunodg/formulario/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/brunodg/formulario/vendor/monolog/monolog/src/Monolog/Logger.php(289): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /home/brunodg/formulario/vendor/monolog/monolog/src/Monolog/Logger.php(565): Monolog\Logger->addRecord(400, Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
+#3 /home/brunodg/formulario/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(50): Monolog\Logger->error(Object(Symfony\Component\Debug
+2015/11/28 22:46:05 [error] 5970#0: *122 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/home/brunodg/formulario/storage/logs/laravel.log" could not be opened: failed to open stream: Permission denied' in /home/brunodg/formulario/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:87
+Stack trace:
+#0 /home/brunodg/formulario/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/brunodg/formulario/vendor/monolog/monolog/src/Monolog/Logger.php(289): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /home/brunodg/formulario/vendor/monolog/monolog/src/Monolog/Logger.php(565): Monolog\Logger->addRecord(400, Object(UnexpectedValueException), Array)
+#3 /home/brunodg/formulario/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(50): Monolog\Logger->error(Object(UnexpectedValueException))
+#4 /home/brunodg/formulario/app/Exceptions/Handler.php(33): Illuminate\Foundation\Except...
+PHP message: PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/home/brunodg/formulario/storage/logs/laravel.log" could not be opened: failed to open stream: Permission denied' in /home/brunodg/formulario/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:87
+Stack trace:
+#0 /home/brunodg/formulario/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/brunodg/formulario/vendor/monolog/monolog/src/Monolog/Logger.php(289): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /home/brunodg/formulario/vendor/monolog/monolog/src/Monolog/Logger.php(565): Monolog\Logger->addRecord(400, Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
+#3 /home/brunodg/formulario/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(50): Monolog\Logger->error(Object(Symfony\Component\Debug
+2015/11/28 22:46:16 [error] 5970#0: *124 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/home/brunodg/formulario/storage/logs/laravel.log" could not be opened: failed to open stream: Permission denied' in /home/brunodg/formulario/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:87
+Stack trace:
+#0 /home/brunodg/formulario/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/brunodg/formulario/vendor/monolog/monolog/src/Monolog/Logger.php(289): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /home/brunodg/formulario/vendor/monolog/monolog/src/Monolog/Logger.php(565): Monolog\Logger->addRecord(400, Object(UnexpectedValueException), Array)
+#3 /home/brunodg/formulario/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(50): Monolog\Logger->error(Object(UnexpectedValueException))
+#4 /home/brunodg/formulario/app/Exceptions/Handler.php(33): Illuminate\Foundation\Except...
+PHP message: PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/home/brunodg/formulario/storage/logs/laravel.log" could not be opened: failed to open stream: Permission denied' in /home/brunodg/formulario/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:87
+Stack trace:
+#0 /home/brunodg/formulario/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/brunodg/formulario/vendor/monolog/monolog/src/Monolog/Logger.php(289): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /home/brunodg/formulario/vendor/monolog/monolog/src/Monolog/Logger.php(565): Monolog\Logger->addRecord(400, Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
+#3 /home/brunodg/formulario/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(50): Monolog\Logger->error(Object(Symfony\Component\Debug
+2015/11/28 22:48:08 [error] 5970#0: *128 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/home/brunodg/formulario/storage/logs/laravel.log" could not be opened: failed to open stream: Permission denied' in /home/brunodg/formulario/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:87
+Stack trace:
+#0 /home/brunodg/formulario/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/brunodg/formulario/vendor/monolog/monolog/src/Monolog/Logger.php(289): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /home/brunodg/formulario/vendor/monolog/monolog/src/Monolog/Logger.php(565): Monolog\Logger->addRecord(400, Object(UnexpectedValueException), Array)
+#3 /home/brunodg/formulario/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(50): Monolog\Logger->error(Object(UnexpectedValueException))
+#4 /home/brunodg/formulario/app/Exceptions/Handler.php(33): Illuminate\Foundation\Except...
+PHP message: PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/home/brunodg/formulario/storage/logs/laravel.log" could not be opened: failed to open stream: Permission denied' in /home/brunodg/formulario/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:87
+Stack trace:
+#0 /home/brunodg/formulario/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/brunodg/formulario/vendor/monolog/monolog/src/Monolog/Logger.php(289): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /home/brunodg/formulario/vendor/monolog/monolog/src/Monolog/Logger.php(565): Monolog\Logger->addRecord(400, Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
+#3 /home/brunodg/formulario/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(50): Monolog\Logger->error(Object(Symfony\Component\Debug
+2015/11/28 22:48:57 [error] 5970#0: *130 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/home/brunodg/formulario/storage/logs/laravel.log" could not be opened: failed to open stream: Permission denied' in /home/brunodg/formulario/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:87
+Stack trace:
+#0 /home/brunodg/formulario/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/brunodg/formulario/vendor/monolog/monolog/src/Monolog/Logger.php(289): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /home/brunodg/formulario/vendor/monolog/monolog/src/Monolog/Logger.php(565): Monolog\Logger->addRecord(400, Object(UnexpectedValueException), Array)
+#3 /home/brunodg/formulario/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(50): Monolog\Logger->error(Object(UnexpectedValueException))
+#4 /home/brunodg/formulario/app/Exceptions/Handler.php(33): Illuminate\Foundation\Except...
+PHP message: PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/home/brunodg/formulario/storage/logs/laravel.log" could not be opened: failed to open stream: Permission denied' in /home/brunodg/formulario/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:87
+Stack trace:
+#0 /home/brunodg/formulario/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/brunodg/formulario/vendor/monolog/monolog/src/Monolog/Logger.php(289): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /home/brunodg/formulario/vendor/monolog/monolog/src/Monolog/Logger.php(565): Monolog\Logger->addRecord(400, Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
+#3 /home/brunodg/formulario/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(50): Monolog\Logger->error(Object(Symfony\Component\Debug
+2015/11/28 22:49:15 [error] 5970#0: *132 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/home/brunodg/formulario/storage/logs/laravel.log" could not be opened: failed to open stream: Permission denied' in /home/brunodg/formulario/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:87
+Stack trace:
+#0 /home/brunodg/formulario/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/brunodg/formulario/vendor/monolog/monolog/src/Monolog/Logger.php(289): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /home/brunodg/formulario/vendor/monolog/monolog/src/Monolog/Logger.php(565): Monolog\Logger->addRecord(400, Object(UnexpectedValueException), Array)
+#3 /home/brunodg/formulario/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(50): Monolog\Logger->error(Object(UnexpectedValueException))
+#4 /home/brunodg/formulario/app/Exceptions/Handler.php(33): Illuminate\Foundation\Except...
+PHP message: PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/home/brunodg/formulario/storage/logs/laravel.log" could not be opened: failed to open stream: Permission denied' in /home/brunodg/formulario/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:87
+Stack trace:
+#0 /home/brunodg/formulario/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/brunodg/formulario/vendor/monolog/monolog/src/Monolog/Logger.php(289): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /home/brunodg/formulario/vendor/monolog/monolog/src/Monolog/Logger.php(565): Monolog\Logger->addRecord(400, Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
+#3 /home/brunodg/formulario/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(50): Monolog\Logger->error(Object(Symfony\Component\Debug
+2015/11/28 22:49:16 [error] 5970#0: *134 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/home/brunodg/formulario/storage/logs/laravel.log" could not be opened: failed to open stream: Permission denied' in /home/brunodg/formulario/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:87
+Stack trace:
+#0 /home/brunodg/formulario/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/brunodg/formulario/vendor/monolog/monolog/src/Monolog/Logger.php(289): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /home/brunodg/formulario/vendor/monolog/monolog/src/Monolog/Logger.php(565): Monolog\Logger->addRecord(400, Object(UnexpectedValueException), Array)
+#3 /home/brunodg/formulario/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(50): Monolog\Logger->error(Object(UnexpectedValueException))
+#4 /home/brunodg/formulario/app/Exceptions/Handler.php(33): Illuminate\Foundation\Except...
+PHP message: PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/home/brunodg/formulario/storage/logs/laravel.log" could not be opened: failed to open stream: Permission denied' in /home/brunodg/formulario/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:87
+Stack trace:
+#0 /home/brunodg/formulario/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/brunodg/formulario/vendor/monolog/monolog/src/Monolog/Logger.php(289): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /home/brunodg/formulario/vendor/monolog/monolog/src/Monolog/Logger.php(565): Monolog\Logger->addRecord(400, Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
+#3 /home/brunodg/formulario/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(50): Monolog\Logger->error(Object(Symfony\Component\Debug
+2015/11/28 22:49:29 [error] 5970#0: *136 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/home/brunodg/formulario/storage/logs/laravel.log" could not be opened: failed to open stream: Permission denied' in /home/brunodg/formulario/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:87
+Stack trace:
+#0 /home/brunodg/formulario/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/brunodg/formulario/vendor/monolog/monolog/src/Monolog/Logger.php(289): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /home/brunodg/formulario/vendor/monolog/monolog/src/Monolog/Logger.php(565): Monolog\Logger->addRecord(400, Object(UnexpectedValueException), Array)
+#3 /home/brunodg/formulario/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(50): Monolog\Logger->error(Object(UnexpectedValueException))
+#4 /home/brunodg/formulario/app/Exceptions/Handler.php(33): Illuminate\Foundation\Except...
+PHP message: PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/home/brunodg/formulario/storage/logs/laravel.log" could not be opened: failed to open stream: Permission denied' in /home/brunodg/formulario/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:87
+Stack trace:
+#0 /home/brunodg/formulario/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/brunodg/formulario/vendor/monolog/monolog/src/Monolog/Logger.php(289): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /home/brunodg/formulario/vendor/monolog/monolog/src/Monolog/Logger.php(565): Monolog\Logger->addRecord(400, Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
+#3 /home/brunodg/formulario/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(50): Monolog\Logger->error(Object(Symfony\Component\Debug
+2015/11/28 22:49:31 [error] 5970#0: *138 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/home/brunodg/formulario/storage/logs/laravel.log" could not be opened: failed to open stream: Permission denied' in /home/brunodg/formulario/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:87
+Stack trace:
+#0 /home/brunodg/formulario/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/brunodg/formulario/vendor/monolog/monolog/src/Monolog/Logger.php(289): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /home/brunodg/formulario/vendor/monolog/monolog/src/Monolog/Logger.php(565): Monolog\Logger->addRecord(400, Object(UnexpectedValueException), Array)
+#3 /home/brunodg/formulario/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(50): Monolog\Logger->error(Object(UnexpectedValueException))
+#4 /home/brunodg/formulario/app/Exceptions/Handler.php(33): Illuminate\Foundation\Except...
+PHP message: PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/home/brunodg/formulario/storage/logs/laravel.log" could not be opened: failed to open stream: Permission denied' in /home/brunodg/formulario/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:87
+Stack trace:
+#0 /home/brunodg/formulario/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/brunodg/formulario/vendor/monolog/monolog/src/Monolog/Logger.php(289): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /home/brunodg/formulario/vendor/monolog/monolog/src/Monolog/Logger.php(565): Monolog\Logger->addRecord(400, Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
+#3 /home/brunodg/formulario/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(50): Monolog\Logger->error(Object(Symfony\Component\Debug
+2015/11/28 22:49:32 [error] 5970#0: *138 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/home/brunodg/formulario/storage/logs/laravel.log" could not be opened: failed to open stream: Permission denied' in /home/brunodg/formulario/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:87
+Stack trace:
+#0 /home/brunodg/formulario/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/brunodg/formulario/vendor/monolog/monolog/src/Monolog/Logger.php(289): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /home/brunodg/formulario/vendor/monolog/monolog/src/Monolog/Logger.php(565): Monolog\Logger->addRecord(400, Object(UnexpectedValueException), Array)
+#3 /home/brunodg/formulario/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(50): Monolog\Logger->error(Object(UnexpectedValueException))
+#4 /home/brunodg/formulario/app/Exceptions/Handler.php(33): Illuminate\Foundation\Except...
+PHP message: PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/home/brunodg/formulario/storage/logs/laravel.log" could not be opened: failed to open stream: Permission denied' in /home/brunodg/formulario/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:87
+Stack trace:
+#0 /home/brunodg/formulario/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/brunodg/formulario/vendor/monolog/monolog/src/Monolog/Logger.php(289): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /home/brunodg/formulario/vendor/monolog/monolog/src/Monolog/Logger.php(565): Monolog\Logger->addRecord(400, Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
+#3 /home/brunodg/formulario/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(50): Monolog\Logger->error(Object(Symfony\Component\Debug
+2015/11/28 22:49:46 [error] 5970#0: *138 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/home/brunodg/formulario/storage/logs/laravel.log" could not be opened: failed to open stream: Permission denied' in /home/brunodg/formulario/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:87
+Stack trace:
+#0 /home/brunodg/formulario/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/brunodg/formulario/vendor/monolog/monolog/src/Monolog/Logger.php(289): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /home/brunodg/formulario/vendor/monolog/monolog/src/Monolog/Logger.php(565): Monolog\Logger->addRecord(400, Object(UnexpectedValueException), Array)
+#3 /home/brunodg/formulario/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(50): Monolog\Logger->error(Object(UnexpectedValueException))
+#4 /home/brunodg/formulario/app/Exceptions/Handler.php(33): Illuminate\Foundation\Except...
+PHP message: PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/home/brunodg/formulario/storage/logs/laravel.log" could not be opened: failed to open stream: Permission denied' in /home/brunodg/formulario/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:87
+Stack trace:
+#0 /home/brunodg/formulario/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/brunodg/formulario/vendor/monolog/monolog/src/Monolog/Logger.php(289): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /home/brunodg/formulario/vendor/monolog/monolog/src/Monolog/Logger.php(565): Monolog\Logger->addRecord(400, Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
+#3 /home/brunodg/formulario/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(50): Monolog\Logger->error(Object(Symfony\Component\Debug
+2015/11/28 22:49:55 [error] 5970#0: *138 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/home/brunodg/formulario/storage/logs/laravel.log" could not be opened: failed to open stream: Permission denied' in /home/brunodg/formulario/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:87
+Stack trace:
+#0 /home/brunodg/formulario/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/brunodg/formulario/vendor/monolog/monolog/src/Monolog/Logger.php(289): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /home/brunodg/formulario/vendor/monolog/monolog/src/Monolog/Logger.php(565): Monolog\Logger->addRecord(400, Object(UnexpectedValueException), Array)
+#3 /home/brunodg/formulario/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(50): Monolog\Logger->error(Object(UnexpectedValueException))
+#4 /home/brunodg/formulario/app/Exceptions/Handler.php(33): Illuminate\Foundation\Except...
+PHP message: PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/home/brunodg/formulario/storage/logs/laravel.log" could not be opened: failed to open stream: Permission denied' in /home/brunodg/formulario/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:87
+Stack trace:
+#0 /home/brunodg/formulario/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/brunodg/formulario/vendor/monolog/monolog/src/Monolog/Logger.php(289): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /home/brunodg/formulario/vendor/monolog/monolog/src/Monolog/Logger.php(565): Monolog\Logger->addRecord(400, Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
+#3 /home/brunodg/formulario/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(50): Monolog\Logger->error(Object(Symfony\Component\Debug
+2015/11/28 22:51:40 [error] 5970#0: *143 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/home/brunodg/formulario/storage/logs/laravel.log" could not be opened: failed to open stream: Permission denied' in /home/brunodg/formulario/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:87
+Stack trace:
+#0 /home/brunodg/formulario/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/brunodg/formulario/vendor/monolog/monolog/src/Monolog/Logger.php(289): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /home/brunodg/formulario/vendor/monolog/monolog/src/Monolog/Logger.php(565): Monolog\Logger->addRecord(400, Object(UnexpectedValueException), Array)
+#3 /home/brunodg/formulario/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(50): Monolog\Logger->error(Object(UnexpectedValueException))
+#4 /home/brunodg/formulario/app/Exceptions/Handler.php(33): Illuminate\Foundation\Except...
+PHP message: PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/home/brunodg/formulario/storage/logs/laravel.log" could not be opened: failed to open stream: Permission denied' in /home/brunodg/formulario/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:87
+Stack trace:
+#0 /home/brunodg/formulario/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/brunodg/formulario/vendor/monolog/monolog/src/Monolog/Logger.php(289): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /home/brunodg/formulario/vendor/monolog/monolog/src/Monolog/Logger.php(565): Monolog\Logger->addRecord(400, Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
+#3 /home/brunodg/formulario/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(50): Monolog\Logger->error(Object(Symfony\Component\Debug
+2015/11/29 03:50:49 [error] 5972#0: *552 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Class 'App\Http\Controllers\Product' not found in /home/brunodg/formulario/app/Http/Controllers/ProductsController.php on line 20" while reading response header from upstream, client: 127.0.0.1, server: formulario.local, request: "GET /api/product HTTP/1.1", upstream: "fastcgi://unix:/var/run/php5-fpm.sock:", host: "formulario.local", referrer: "http://formulario.local/"
